@@ -1,0 +1,38 @@
+body {
+    background-color: #073B4C;
+    color: #bde0fe;
+}
+
+h1 {
+    display: flex;
+    margin-top: 4rem;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.seat {
+    width: 50px;
+    height: 60px;
+    text-align: center;
+    line-height: 40px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+#seating-chart {
+    display: grid;
+    grid-template-columns: repeat(5, 50px);
+    gap: 10px;
+    justify-content: center;
+}
+
+.booked {
+    background-color: #BC4B51;
+    cursor: not-allowed;
+}
+
+.available {
+    background-color: #8CB369;
+    color: white;
+}
